@@ -1,0 +1,113 @@
+<!--
+    Company:    Controls Inc.
+    Filename:   HomePage.html
+    Author:     Trevor Parsh
+-->
+
+<!DOCTYPE html>
+<head>
+    <script src="PageSelectButton.js"></script>
+    <script src="HomePage.js"></script>
+    <link rel="stylesheet" type="text/css" href="HomePage.css" />
+    <link rel="icon" href="images/ControlsInc_TabIcon.PNG">
+    <title>Controls Inc. Design Sandbox</title>
+    <!--<meta http-equiv="refresh" content="5" />-->
+</head>
+
+<body>
+    <div id="MainImage">
+        <img src="images/mastheadlogo5.jpg" alt="Controls Inc">
+    </div>
+    
+    <div id="Title">
+        Controls Inc. Motor Controller
+    </div>
+    
+    <br>
+    
+    <div id="Panel1">
+        <button onclick="PageSelectButton_Change()" class="PageSelectButton" id="PageSelectButton_ID"> Home </button>
+        <div id="PageSelectButtonContent-ID" class="PageSelectButton-content">
+            <a href="ActiveAlarmsPage.html"> Active Alarms </a>
+            <a href="ControllerPage.html"> Controller </a>
+            <a href="/embedded/main/http/web_manager/index.html"> Lantronix Config </a>
+        </div>
+    </div>
+    
+    <br>
+    
+    <div id="Panel2">
+        <table id="BASIC_INFO_TABLE" align="center">
+            <TR>
+            <TH width="150px" align=left> Unit ID </TH>
+            <TH width="150px" align=center> 2161452 </TH>
+            <TH width="150px" align=left> KP0013 </TH>
+            </TR>
+            
+            <TR>
+            <TH width="150px" align=left> Status </TH>
+            <TH width="150px" align=center> Connected </TH>
+            <TH width="150px" align=left> <img src="images/signal_strength.jpeg" width="60" height="40" alt="Sig Str"> </TH>
+            </TR>
+        </table>
+    </div>
+    
+    <br>
+    
+    <div id="Panel3">
+        <table id="RPM_TABLE" align="center">
+            <TR>
+            <TH> 1850 </TH>
+            <TH> PSI </TH>
+            </TR>
+        </table>
+    </div>
+    
+    <br>
+    
+    <div id="Panel4">
+        <button id="START_BUTTON" type="button" onmouseup="START_BUTTON_Up()"> Start </button>
+        <div class="divider1"></div>
+        <button id="UP_BUTTON" type="button" onmouseup="UP_BUTTON_Up()"><img src="images/Stock-Index-Up-icon.png" width="60" height="60" alt="Up"></button>
+        <div class="divider1"></div>
+        <button id="DOWN_BUTTON" type="button" onmouseup="DOWN_BUTTON_Up()"><img src="images/Stock-Index-Down-icon.png" width="60" height="60" alt="Down"></button>
+        <div class="divider1"></div>
+        <button id="STOP_BUTTON" type="button" onmouseup="STOP_BUTTON_Up()"> Stop </button>
+    </div>
+    
+    <br>
+    
+    <div id="Panel5">
+        <table id="DEVICE_INFO_TABLE" align="center">
+            <TR>
+            <TH width="300px" align=left> Oil Pressure </TH>
+            <TD align=right> 45 </TD>
+            <TH width="150px" align=left> PSI </TH>
+            </TR>
+            
+            <TR>
+            <TH width="300px" align=left> Coolant Temperature </TH>
+            <TD align=right> 205 </TD>
+            <TH width="150px" align=left> &degF </TH>
+            </TR>
+            
+            <TR>
+            <TH width="300px" align=left> Fuel Level </TH>
+            <TD align=right> 65 </TD>
+            <TH width="150px" align=left> % </TH>
+            </TR>
+            
+            <TR>
+            <TH width="300px" align=left> Battery Voltage </TH>
+            <TD align=right> 13.5 </TD>
+            <TH width="150px" align=left> V<SUB>DC</SUB> </TH>
+            </TR>
+            
+            <TR>
+            <TH width="300px" align=left> Engine Hours </TH>
+            <TD align=right> 6589.7 </TD>
+            <TH width="150px" align=left> </TH>
+            </TR>
+        </table>
+    </div>
+</body>

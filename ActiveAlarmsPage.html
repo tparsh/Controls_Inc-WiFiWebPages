@@ -1,0 +1,96 @@
+<!--
+    Company:    Controls Inc.
+    Filename:   ActiveAlarmsPage.html
+    Author:     Trevor Parsh
+-->
+
+<!DOCTYPE html>
+<head>
+    <script src="PageSelectButton.js"></script>
+    <link rel="stylesheet" type="text/css" href="ActiveAlarmsPage.css" />
+    <link rel="icon" href="images/ControlsInc_TabIcon.PNG">
+    <title>Controls Inc. Design Sandbox</title>
+    <meta http-equiv="refresh" content="5" />
+</head>
+
+<body>
+    <div id="MainImage">
+        <img src="images/mastheadlogo5.jpg" alt="Controls Inc">
+    </div>
+    
+    <div id="Title">
+        Controls Inc. Motor Controller
+    </div>
+    
+    <br>
+    
+    <div id="Panel1">
+        <button onclick="PageSelectButton_Change()" class="PageSelectButton"> Active Alarms </button>
+        <div id="PageSelectButtonContent-ID" class="PageSelectButton-content">
+            <a href="HomePage.html"> Home </a>
+            <a href="ControllerPage.html"> Controller </a>
+        </div>
+    </div>
+    
+    <br>
+    
+    <div id="Panel2">
+        <table id="BASIC_INFO_TABLE" align="center">
+            <TR>
+            <TH width="150px" align=left> Unit ID </TH>
+            <TH width="150px" align=center> 2161452 </TH>
+            <TH width="150px" align=left> KP0013 </TH>
+            </TR>
+            
+            <TR>
+            <TH width="150px" align=left> Status </TH>
+            <TH width="150px" align=center> Connected </TH>
+            <TH width="150px" align=left> <img src="images/signal_strength.jpeg" width="60" height="40" alt="Sig Str"> </TH>
+            </TR>
+        </table>
+    </div>
+    
+    <br>
+    
+    <div id="Panel3">
+        <table id="LAMP_TABLE" align="center">
+            <TR>
+            <TH width="150px" align=center> Circle </TH>
+            <TH width="150px" align=center> Circle </TH>
+            <TH width="150px" align=center> Circle </TH>
+            </TR>
+            
+            <TR>
+            <TH width="150px" align=center> Red </TH>
+            <TH width="150px" align=center> MIL Lamp </TH>
+            <TH width="150px" align=center> Amber Lamp </TH>
+            </TR>
+        </table>
+    </div>
+    
+    <br>
+    
+    <div id="Panel4">
+        <table id="SPN_TABLE" align="center">
+            <TR>
+            <TH width="300px" align=left> SPN.FMI1 </TH>
+            <TD align=right> 110.03 </TD>
+            </TR>
+            
+            <TR>
+            <TH width="300px" align=left> SPN.FMI2 </TH>
+            <TD align=right> 110.03 </TD>
+            </TR>
+            
+            <TR>
+            <TH width="300px" align=left> SPN.FMI3 </TH>
+            <TD align=right> 110.03 </TD>
+            </TR>
+            
+            <TR>
+            <TH width="300px" align=left> SPN.FMI4 </TH>
+            <TD align=right> 110.03 </TD>
+            </TR>
+        </table>
+    </div>
+</body>

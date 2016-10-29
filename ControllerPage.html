@@ -1,0 +1,73 @@
+<!--
+    Company:    Controls Inc.
+    Filename:   ControllerPage.html
+    Author:     Trevor Parsh
+-->
+
+<!DOCTYPE html>
+<head>
+    <script src="PageSelectButton.js"></script>
+    <link rel="stylesheet" type="text/css" href="ControllerPage.css" />
+    <link rel="icon" href="images/ControlsInc_TabIcon.PNG">
+    <title>Controls Inc. Design Sandbox</title>
+    <meta http-equiv="refresh" content="5" />
+</head>
+
+<body>
+    <div id="MainImage">
+        <img src="images/mastheadlogo5.jpg" alt="Controls Inc">
+    </div>
+    
+    <div id="Title">
+        Controls Inc. Motor Controller
+    </div>
+    
+    <br>
+    
+    <div id="Panel1">
+        <button onclick="PageSelectButton_Change()" class="PageSelectButton"> Controller </button>
+        <div id="PageSelectButtonContent-ID" class="PageSelectButton-content">
+            <a href="HomePage.html"> Home </a>
+            <a href="ActiveAlarmsPage.html"> Active Alarms </a>
+        </div>
+    </div>
+    
+    <br>
+    
+    <div id="Panel2">
+        <table id="BASIC_INFO_TABLE" align="center">
+            <TR>
+            <TH width="150px" align=left> Unit ID </TH>
+            <TH width="150px" align=center> 2161452 </TH>
+            <TH width="150px" align=left> KP0013 </TH>
+            </TR>
+            
+            <TR>
+            <TH width="150px" align=left> Status </TH>
+            <TH width="150px" align=center> Connected </TH>
+            <TH width="150px" align=left> <img src="images/signal_strength.jpeg" width="60" height="40" alt="Sig Str"> </TH>
+            </TR>
+        </table>
+    </div>
+    
+    <br>
+    
+    <div id="Panel3">
+        <table id="DEVICE_INFO_TABLE" align="center">
+            <TR>
+            <TH width="200px" align=left> Engine State </TH>
+            <TD width="200px" align=right> Running </TD>
+            </TR>
+            
+            <TR>
+            <TH width="200px" align=left> Key Switch </TH>
+            <TD width="200px" align=right> Auto </TD>
+            </TR>
+            
+            <TR>
+            <TH width="200px" align=left> Alarm State </TH>
+            <TD width="200px" align=right> None </TD>
+            </TR>
+        </table>
+    </div>
+</body>

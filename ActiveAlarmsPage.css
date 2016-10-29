@@ -1,0 +1,160 @@
+/*
+    Company:    Controls Inc.
+    Filename:   AlarmsActivePage.css
+    Author:     Trevor Parsh
+*/
+
+body
+{
+    background-color: LightGray;
+}
+
+.divider1
+{
+    width:40px;
+    height:auto;
+    display:inline-block;
+}
+
+#Title
+{
+    background-color:LightGray;
+    font: italic bold 50px sans-serif;
+/*
+    border-style: solid;
+    border-width: 2px;
+    border-radius:100px;
+    border-top: thick double #ff0000;
+*/
+    text-align:center;
+}
+
+#MainImage
+{
+    background-color:LightGray;
+    text-align:center;
+}
+
+#Panel1
+{
+    text-align:center;
+}
+.PageSelectButton
+{
+    border-radius:15px;
+    background-color: #455FC5;
+    font: bold 42px sans-serif;
+    color: black;
+    padding: 16px;
+    border: 2px solid #113FBC;
+    cursor: pointer;
+    width: 500px;
+}
+.PageSelectButton:hover, .PageSelectButton:focus
+{
+    /* Dropdown button on hover & focus */
+    background-color: #7B93F1;
+}
+.PageSelectButton-content
+{
+    /* Dropdown Content (Hidden by Default) */
+    font: bold 32px sans-serif;
+    display: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-color: #455FC5;
+    width: 500px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.PageSelectButton-content a
+{
+    /* Links inside the dropdown */
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.PageSelectButton-content a:hover
+{
+    /* Change color of dropdown links on hover */
+    background-color: #7B93F1
+}
+.show
+{
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    display:block;
+}
+
+#Panel2
+{
+    
+}
+#BASIC_INFO_TABLE
+{
+    background-color: LightSteelBlue;
+    border: 2px solid SlateGray;
+    border-radius:15px;
+    text-align:center;
+    padding: 20px;
+}
+#BASIC_INFO_TABLE  td
+{
+    background-color: LightSteelBlue;
+    font: bold 24px sans-serif;
+}
+#BASIC_INFO_TABLE  th
+{
+    background-color: LightSteelBlue;
+    font: bold 24px sans-serif;
+}
+
+#Panel3
+{
+    
+}
+#LAMP_TABLE
+{
+    background-color: DodgerBlue;
+    border: 2px solid DarkBlue;
+    border-radius:15px;
+    text-align:center;
+    padding: 20px;
+}
+#LAMP_TABLE  td
+{
+    background-color: DodgerBlue;
+    font: bold 24px sans-serif;
+}
+#LAMP_TABLE  th
+{
+    background-color: DodgerBlue;
+    font: bold 24px sans-serif;
+}
+
+#Panel4
+{
+    
+}
+#SPN_TABLE
+{
+    background-color: LightSteelBlue;
+    border: 2px solid SlateGray;
+    border-radius:15px;
+    text-align:center;
+    padding: 20px;
+}
+#SPN_TABLE  td
+{
+    background-color: LightSteelBlue;
+    font: bold 24px sans-serif;
+}
+#SPN_TABLE  th
+{
+    background-color: LightSteelBlue;
+    font: bold 24px sans-serif;
+}
